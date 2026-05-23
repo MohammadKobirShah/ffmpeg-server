@@ -1,5 +1,11 @@
 [service.api]
 rootDirectory = "api"
 
+[service.api.build]
+builder = "DOCKERFILE"
+
 [service.worker]
 rootDirectory = "worker"
+
+[service.worker.build]
+builder = "DOCKERFILE"
