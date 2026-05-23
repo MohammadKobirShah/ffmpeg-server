@@ -1,0 +1,5 @@
+[service.api]
+rootDirectory = "api"
+
+[service.worker]
+rootDirectory = "worker"
